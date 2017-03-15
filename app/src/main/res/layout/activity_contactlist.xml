@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null">
+
+    </ListView>
+    <com.chuck.contactsdemo.SideBar
+        android:id="@+id/sideBar"
+        android:layout_width="20dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="right" />
+    <TextView
+        android:id="@+id/index"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_gravity="top|left"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:background="#FFFFFF"/>
+    <TextView
+        android:id="@+id/tv_toast"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:background="@color/colorPrimary"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="right"/>
+</FrameLayout>
